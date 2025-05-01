@@ -21,6 +21,7 @@ Add the following to your `.env` file:
 ```
 IMAGE_RESIZER_API_KEY=your-api-key
 IMAGE_RESIZER_BASE_URL=http://imageresizer:5689
+IMAGE_RESIZER_PUBLIC_URL=http://localhost:5689
 ```
 
 ## Usage

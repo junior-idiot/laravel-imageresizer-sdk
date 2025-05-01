@@ -18,7 +18,8 @@ class ImageResizerServiceProvider extends ServiceProvider
         $this->app->singleton(Client::class, function ($app) {
             return new Client(
                 xApiKey: config('image_resizer.api_key'),
-                baseUrl: config('image_resizer.base_url')
+                baseUrl: config('image_resizer.base_url'),
+                publicBaseUrl: config('image_resizer.public_base_url')
             );
         });
     }
