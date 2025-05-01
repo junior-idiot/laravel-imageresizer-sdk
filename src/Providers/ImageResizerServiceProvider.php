@@ -19,7 +19,7 @@ class ImageResizerServiceProvider extends ServiceProvider
             return new Client(
                 xApiKey: config('image_resizer.api_key'),
                 baseUrl: config('image_resizer.base_url'),
-                publicBaseUrl: config('image_resizer.public_base_url')
+                publicBaseUrl: config('image_resizer.public_url')
             );
         });
     }

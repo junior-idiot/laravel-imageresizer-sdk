@@ -3,7 +3,7 @@
   "description": "Laravel SDK для Image Resizer Service",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minimum-stability": "stable",
   "require": {
     "php": ">=8.1",
